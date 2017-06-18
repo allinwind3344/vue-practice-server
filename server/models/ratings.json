@@ -1,0 +1,41 @@
+{
+  "name": "ratings",
+  "plural": "ratings",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string"
+    },
+    "rateTime": {
+      "type": "date"
+    },
+    "deliveryTime": {
+      "type": "number"
+    },
+    "score": {
+      "type": "number"
+    },
+    "rateType": {
+      "type": "number"
+    },
+    "text": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "recommend": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,12 @@
+{
+  "takeout": {
+    "host": "allinwind.win",
+    "port": 27017,
+    "url": "",
+    "database": "takeout",
+    "password": "",
+    "name": "takeout",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

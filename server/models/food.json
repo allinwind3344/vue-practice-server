@@ -1,0 +1,46 @@
+{
+  "name": "food",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "oldPrice": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "sellCount": {
+      "type": "number"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "info": {
+      "type": "string"
+    },
+    "ratings": {
+      "type": [
+        "object"
+      ]
+    },
+    "icon": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,26 @@
+{
+  "name": "goods",
+  "plural": "goods",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "number"
+    },
+    "foods": {
+      "type": [
+        "food"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,70 @@
+{
+  "name": "seller",
+  "plural": "seller",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "deliveryTime": {
+      "type": "number"
+    },
+    "score": {
+      "type": "number"
+    },
+    "serviceScore": {
+      "type": "number"
+    },
+    "foodScore": {
+      "type": "number"
+    },
+    "rankRate": {
+      "type": "number"
+    },
+    "minPrice": {
+      "type": "number"
+    },
+    "deliveryPrice": {
+      "type": "number"
+    },
+    "ratingCount": {
+      "type": "number"
+    },
+    "sellCount": {
+      "type": "number"
+    },
+    "bulletin": {
+      "type": "string"
+    },
+    "supports": {
+      "type": [
+        "object"
+      ]
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "pics": {
+      "type": [
+        "string"
+      ]
+    },
+    "infos": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
